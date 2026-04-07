@@ -1,0 +1,15 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9
+
+# Data / OCR / PDF
+numpy==1.26.4
+pandas==2.2.3
+pillow==10.4.0
+pytesseract==0.3.13
+pdf2image==1.17.0
+pdfplumber==0.11.4
+
+# Optional (used by extract_statements.py when enabled)
+python-dotenv==1.0.1
+groq==0.9.0
